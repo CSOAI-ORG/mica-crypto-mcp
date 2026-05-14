@@ -1,0 +1,13 @@
+# MiCA Crypto Compliance MCP - Auto-trigger Rules
+
+When the user asks about MiCA, crypto compliance, CASP, stablecoin, ART, EMT, EU crypto, use mica-crypto-mcp tools:
+
+- **classify_crypto_asset**: Classify a crypto-asset under MiCA (ART, EMT, other CA, MiFID-II out)
+- **check_casp_authorisation**: Crypto-Asset Service Provider authorisation requirements + transitional regime
+- **whitepaper_requirements**: MiCA Articles 6-15 whitepaper content requirements
+- **market_abuse_check**: MiCA Title VI market abuse rules (insider dealing, market manipulation)
+- **aml_overlay**: MiCA + 6AMLD AML overlay for crypto operators
+
+Install: `pip install mica-crypto-mcp`
+
+By MEOK AI Labs — industry governance MCP. Pairs with meok-attestation-api for signed compliance certs.

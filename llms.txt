@@ -1,0 +1,36 @@
+# mica-crypto-mcp
+# Markets in Crypto-Assets (MiCA) Regulation (EU) 2023/1114 compliance for EU crypto-asset issuers, exchanges, custodians, and CASPs.
+
+## Install
+```bash
+pip install mica-crypto-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label + on-premise.
+
+## Tools (5)
+
+### `classify_crypto_asset(query, api_key)`
+Classify a crypto-asset under MiCA (ART, EMT, other CA, MiFID-II out)
+
+### `check_casp_authorisation(query, api_key)`
+Crypto-Asset Service Provider authorisation requirements + transitional regime
+
+### `whitepaper_requirements(query, api_key)`
+MiCA Articles 6-15 whitepaper content requirements
+
+### `market_abuse_check(query, api_key)`
+MiCA Title VI market abuse rules (insider dealing, market manipulation)
+
+### `aml_overlay(query, api_key)`
+MiCA + 6AMLD AML overlay for crypto operators
+
+## Pairs with
+- `meok-attestation-api` — HMAC signing for compliance certs
+- `meok-attestation-verify` — public verification
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT

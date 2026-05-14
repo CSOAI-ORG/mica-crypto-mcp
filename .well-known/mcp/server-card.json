@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "name": "mica-crypto-mcp",
+  "version": "1.0.0",
+  "title": "MiCA Crypto Compliance",
+  "description": "EU MiCA Reg 2023/1114 for crypto-asset issuers, exchanges, CASPs.",
+  "homepage": "https://meok.ai",
+  "repository": "https://github.com/meok-ai-labs/mica-crypto-mcp",
+  "license": "MIT",
+  "author": {
+    "name": "MEOK AI Labs",
+    "email": "hello@meok.ai",
+    "url": "https://meok.ai"
+  },
+  "categories": [
+    "industry"
+  ],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "ai-governance",
+    "compliance",
+    "meok"
+  ],
+  "support_url": "https://github.com/meok-ai-labs",
+  "contact_email": "hello@meok.ai",
+  "endpoints": {
+    "free_tier": {
+      "calls_per_day": 10
+    },
+    "pro": "https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836",
+    "enterprise": "hello@meok.ai"
+  }
+}
