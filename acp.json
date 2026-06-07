@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "mica-crypto-mcp",
+    "description": "Markets in Crypto-Assets (MiCA) Regulation (EU) 2023/1114 compliance for EU crypto-asset issuers...",
+    "version": "1.0.6",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "mica-crypto-mcp"
+      }
+    ],
+    "capabilities": [
+      "classify_crypto_asset",
+      "check_casp_authorisation",
+      "whitepaper_requirements",
+      "market_abuse_check",
+      "aml_overlay",
+      "search_regulation",
+      "list_regulations_in_db"
+    ]
+  }
+}
