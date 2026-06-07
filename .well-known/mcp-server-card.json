@@ -1,0 +1,34 @@
+{
+  "name": "mica-crypto-mcp",
+  "title": "Mica Crypto Mcp",
+  "description": "Markets in Crypto-Assets (MiCA) Regulation (EU) 2023/1114 compliance for EU crypto-asset issuers, exchanges, custodians, and CASPs.",
+  "version": "1.0.6",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "classify_crypto_asset"
+    },
+    {
+      "name": "check_casp_authorisation"
+    },
+    {
+      "name": "whitepaper_requirements"
+    },
+    {
+      "name": "market_abuse_check"
+    },
+    {
+      "name": "aml_overlay"
+    },
+    {
+      "name": "search_regulation"
+    },
+    {
+      "name": "list_regulations_in_db"
+    }
+  ]
+}

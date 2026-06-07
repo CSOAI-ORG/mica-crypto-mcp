@@ -1,0 +1,34 @@
+name: mica-crypto-mcp
+description: 'MCP server: mica-crypto-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/mica-crypto-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: classify_crypto_asset
+  description: Classify a crypto-asset under MiCA (ART, EMT, other CA, MiFID-II out)
+- name: check_casp_authorisation
+  description: Crypto-Asset Service Provider authorisation requirements + transitional
+    regime
+- name: whitepaper_requirements
+  description: MiCA Articles 6-15 whitepaper content requirements
+- name: market_abuse_check
+  description: MiCA Title VI market abuse rules (insider dealing, market manipulation)
+- name: aml_overlay
+  description: MiCA + 6AMLD AML overlay for crypto operators
+- name: search_regulation
+  description: Full-text search across 410+ articles of real EU regulation text (EUR-Lex
+    verified).
+- name: list_regulations_in_db
+  description: List all regulations in the local EUR-Lex FTS5 database.
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

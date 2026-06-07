@@ -4,7 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mica-crypto-mcp"
-version = "1.0.0"
+readme = "README.md"
+version = "1.0.6"
 description = "Markets in Crypto-Assets (MiCA) Regulation (EU) 2023/1114 compliance for EU crypto-asset issuers, exchanges, custodians, and CASPs."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
@@ -20,7 +21,7 @@ dependencies = ["mcp>=1.0.0"]
 
 [project.urls]
 Homepage = "https://meok.ai"
-Repository = "https://github.com/meok-ai-labs/mica-crypto-mcp"
+Repository = "https://github.com/CSOAI-ORG/mica-crypto-mcp"
 
 [tool.hatch.build.targets.wheel]
 packages = ["."]
