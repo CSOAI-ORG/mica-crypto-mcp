@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mica-crypto-mcp": {
+      "command": "uvx",
+      "args": [
+        "mica-crypto-mcp"
+      ]
+    }
+  }
+}
