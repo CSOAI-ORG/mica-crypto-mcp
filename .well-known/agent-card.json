@@ -1,0 +1,144 @@
+{
+  "name": "Mica Crypto Mcp",
+  "version": "1.0.6",
+  "url": "https://mcp.meok.ai/mica-crypto-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "Markets in Crypto-Assets (MiCA) Regulation (EU) 2023/1114 compliance for EU crypto-asset issuers, exchanges, custodians, and CASPs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "classify_crypto_asset",
+      "name": "Classify Crypto Asset",
+      "description": "Classify Crypto Asset — a tool of the mica-crypto-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_casp_authorisation",
+      "name": "Check Casp Authorisation",
+      "description": "Check Casp Authorisation — a tool of the mica-crypto-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "whitepaper_requirements",
+      "name": "Whitepaper Requirements",
+      "description": "Whitepaper Requirements — a tool of the mica-crypto-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "market_abuse_check",
+      "name": "Market Abuse Check",
+      "description": "Market Abuse Check — a tool of the mica-crypto-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "aml_overlay",
+      "name": "Aml Overlay",
+      "description": "Aml Overlay — a tool of the mica-crypto-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "search_regulation",
+      "name": "Search Regulation",
+      "description": "Search Regulation — a tool of the mica-crypto-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_regulations_in_db",
+      "name": "List Regulations In Db",
+      "description": "List Regulations In Db — a tool of the mica-crypto-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "mica-crypto-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
