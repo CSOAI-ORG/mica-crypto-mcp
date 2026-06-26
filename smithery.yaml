@@ -3,7 +3,7 @@ description: 'MCP server: mica-crypto-mcp'
 version: 1.0.5
 author: MEOK AI Labs
 homepage: https://safetyof.ai
-repository: https://github.com/MEOK-AI-Labs/mica-crypto-mcp
+repository: https://github.com/CSOAI-ORG/mica-crypto-mcp
 license: MIT
 categories:
 - compliance
